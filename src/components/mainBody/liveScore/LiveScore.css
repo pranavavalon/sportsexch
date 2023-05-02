@@ -1,0 +1,27 @@
+.btn-wrapper {
+    display: flex;
+    gap: 0.2rem;
+    margin: 1rem 1rem;
+}
+
+.live-score {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    background-color: #22262a;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.4rem 0;
+    cursor: pointer;
+}
+.live-score:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.liveScore-table button{
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+}
+.liveScore-table .tab-name{
+    font-weight: bold;
+}
