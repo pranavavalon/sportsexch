@@ -54,9 +54,9 @@ export const NavBar = () => {
                         </button>
                     </div>
                     <Popover.Group className="hidden lg:flex lg:gap-x-4 nav-menu">
-                        {navMenu.map((element) => {
+                        {navMenu.map((element, index) => {
                             return (
-                                <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                                <a key={index} href="#" className="text-sm font-semibold leading-6 text-gray-900">
                                     {element}
                                 </a>
                             )

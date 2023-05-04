@@ -4,3 +4,6 @@
 aside{
     display: flex !important;
 }
+.main-body{
+    width: 100%;
+}

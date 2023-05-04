@@ -34,12 +34,12 @@ const Sidebar = () => {
                 <div className="p-4 w-full">
                     <div className="p-0 gap-4 flex dark:border-gray-700">
 
-                        <main className="main -ml-48 flex flex-grow flex-col p-0 transition-all duration-150 ease-in md:ml-0">
+                        <main className="main main-body -ml-48 flex flex-grow flex-col p-0 transition-all duration-150 ease-in md:ml-0">
                             <div className="h-screen justify-center bg-gray-50 shadow-md">
                                 <LiveScore />
                             </div>
                         </main>
-                        <main className="main -ml-48 w-64 flex flex-grow flex-col p-0 transition-all duration-150 ease-in md:ml-0">
+                        <main className="main w-80 -ml-48 w-64 flex flex-grow flex-col p-0 transition-all duration-150 ease-in md:ml-0">
                             <div className="h-screen justify-center bg-gray-50 shadow-md">
                                 <LiveScore />
                             </div>
